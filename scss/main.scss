@@ -1,0 +1,121 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Nunito Sans", serif;
+    font-size: 1.3rem;
+    line-height: 163.7%;
+    color: #FFFFFF;
+    background-color: #131313;
+}
+
+.title {
+    font-family: "Yeseva One", serif;
+    text-transform: uppercase;
+    color: #E3B873;
+    line-height: 138.6%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 120.1rem;
+    padding: 0 1.5rem;
+}
+
+.wrapper {
+    padding: 10.7rem 0  12.43rem;
+}
+
+.header {
+    
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+		// .header__nav
+
+		&__nav {
+            padding-right: 5.6rem;
+            
+		}
+
+		// .header__nav-item
+
+		&__nav-item {
+            color: #FFFFFF;
+            opacity: 0.3;
+            padding: 0.67rem;
+            border-bottom: 1px solid #131313;
+            transition: all 0.5s ease;
+            &:not(:last-child) {
+                margin-right: 6.05rem;
+            }
+            &:hover {
+                color: #E3B873;
+                opacity: 1;
+                border-bottom: 1px solid #E3B873;
+            }
+		}
+}
+
+.main {
+    padding-top: 5.3rem;
+}
+
+.slider {
+
+		// .slider__items
+
+		&__items {
+            display: flex;
+		}
+
+		// .slider__content
+
+		&__content {
+		}
+
+		// .slider__title
+
+		&__title {
+		}
+
+		// .slider__text
+
+		&__text {
+		}
+
+		// .slider__info
+
+		&__info {
+		}
+
+		// .slider__image-item
+
+		&__image-item {
+		}
+
+		// .slider__img
+
+		&__img {
+		}
+}
+.info {
+
+		// .info__item
+
+		&__item {
+		}
+
+		// .info__title
+
+		&__title {
+		}
+
+		// .info__text
+
+		&__text {
+		}
+}
