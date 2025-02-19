@@ -6,14 +6,14 @@ body {
   font-family: "Nunito Sans", serif;
   font-size: 1.3rem;
   line-height: 163.7%;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #131313;
 }
 
 .title {
   font-family: "Yeseva One", serif;
   text-transform: uppercase;
-  color: #E3B873;
+  color: #e3b873;
   line-height: 138.6%;
 }
 
@@ -35,7 +35,7 @@ body {
   padding-right: 5.6rem;
 }
 .header__nav-item {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.3;
   padding: 0.67rem;
   border-bottom: 1px solid #131313;
@@ -46,9 +46,9 @@ body {
   margin-right: 6.05rem;
 }
 .header__nav-item_active {
-  color: #E3B873;
+  color: #e3b873;
   opacity: 1;
-  border-bottom: 1px solid #E3B873;
+  border-bottom: 1px solid #e3b873;
 }
 
 .main {
@@ -76,7 +76,7 @@ body {
   position: absolute;
   bottom: 1.6rem;
   right: -10rem;
-  background-color: #E3B873;
+  background-color: #e3b873;
 }
 .slider__text {
   margin-bottom: 4.2rem;
@@ -103,7 +103,7 @@ body {
 .slider__dot {
   width: 0.96rem;
   height: 0.96rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 0.3;
   border-radius: 50%;
   cursor: pointer;
