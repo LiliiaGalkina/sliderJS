@@ -1,5 +1,5 @@
 const slides = [{
-    url : "./img/first-slide.png",
+    url : "img/first-slide.png",
     city1: "Rostov-on-Don",
     city2: "LCD admiral",
     apartmentArea: "81 m2",
