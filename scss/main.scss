@@ -48,6 +48,7 @@ body {
             opacity: 0.3;
             padding: 0.67rem;
             border-bottom: 1px solid #131313;
+            cursor: pointer;
             &:not(:last-child) {
                 margin-right: 6.05rem;
             }
@@ -110,15 +111,38 @@ body {
 
 		&__arrow-left {
 			margin-right: 3rem;
+            width: 4.15rem;
+            height: 1.33rem;
+            cursor: pointer;
 		}
 
 		// .slider__dots
 
 		&__dots {
+            display: flex;
+            align-items: center;
 		}
+
+        &__dot {
+            width: 0.96rem;
+            height: 0.96rem;
+            background-color: #FFFFFF;
+            opacity: 0.3;
+            border-radius: 50%;
+            cursor: pointer;
+            &:not(:last-child) {
+                margin-right: 1.75rem;
+            }
+            &_active {
+                opacity: 1;
+            }
+        }
 
 		&__arrow-right {
 			margin-left: 3rem;
+            width: 4.15rem;
+            height: 1.33rem;
+            cursor: pointer;
 		}
 
 		// .slider__img
@@ -130,6 +154,12 @@ body {
 				height: 100%;
 				object-fit: cover;
 			}
+            div {
+                display: none;
+            }
+            div.active {
+                display: block;
+            }
 		}
 }
 
