@@ -1,19 +1,19 @@
 const slides = [{
-    url : "/img/first-slide.png",
+    url : "./img/first-slide.png",
     city1: "Rostov-on-Don",
     city2: "LCD admiral",
     apartmentArea: "81 m2",
     repairTime: "3.5 months"
 },
 {
-    url : "/img/second-slide.png",
+    url : "./img/second-slide.png",
     city1: "Sochi",
     city2: "Thieves",
     apartmentArea: "105 m2",
     repairTime: "4 months"
 },
 {
-    url : "/img/third-slide.png",
+    url : "./img/third-slide.png",
     city1: "Rostov-on-Don",
     city2: "Patriotic",
     apartmentArea: "93 m2",
@@ -40,7 +40,7 @@ function initSlider() {
 
     function initImages() {
         slides.forEach((image, index) => {
-            let sliderImageItem = `<div class = "n${index} ${index === 0? "active" : ""}" data-index="${index}"><img src = "${slides[index].url}" ></div>`
+            let sliderImageItem = `<div class = "n${index} ${index === 0? "active" : ""}" data-index="${index}"><img src = "${slides[index].url}" alt = "beautiful interior"></div>`
            sliderImage.innerHTML += sliderImageItem;
         })
     }
