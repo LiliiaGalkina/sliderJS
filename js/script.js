@@ -32,9 +32,6 @@ function initSlider() {
     let sliderDots = document.querySelector(".slider__dots")
     let sliderLinks = document.querySelectorAll('.header__nav-item');
     
-   
-   
-
     initImages();
     initArrows();
     initDots();
@@ -48,9 +45,7 @@ function initSlider() {
         })
     }
 
-    function initArrows(){
-
-       
+    function initArrows(){ 
         sliderArrowLeft.addEventListener('click', () => {
             let curNumber = +sliderImage.querySelector(".active").dataset.index;
             let nextNumber = curNumber === 0? slides.length - 1 : curNumber - 1;
@@ -86,8 +81,6 @@ function initSlider() {
         })
     }
 
-
-
     function moveSlider(num) {
         sliderImage.querySelector(".active").classList.remove("active");
         sliderImage.querySelector(".n" + num).classList.add("active");
@@ -106,8 +99,6 @@ function initSlider() {
         sliderTime.innerHTML = timeItem;
     }
 }
-
-
 
 document.addEventListener("DOMContentLoaded", function() {
     initSlider();
