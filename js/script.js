@@ -13,7 +13,7 @@ const slides = [{
     repairTime: "4 months"
 },
 {
-    url : "/img/third-slide.png",
+    url : "./img/third-slide.png",
     city1: "Rostov-on-Don",
     city2: "Patriotic",
     apartmentArea: "93 m2",
